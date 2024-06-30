@@ -10,7 +10,7 @@ Scheduled Backup: Configured via crontab to run daily.
 Compression: Archives files into a compressed .tar.gz format.
 Move to Destination: Automatically moves the backup file to a specified destination directory.
 
-
+```bash
 #!/bin/bash
 
 # This checks if the number of arguments is correct
